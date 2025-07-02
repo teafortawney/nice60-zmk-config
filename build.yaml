@@ -1,5 +1,6 @@
 include:
-  - board: nice60
+  - board: "nice60"
+  
 cmake-args:
   - -DZMK_STUDIO=y
 
