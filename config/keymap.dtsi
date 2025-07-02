@@ -33,7 +33,7 @@
 			>;
 		};
 
-		rgb_layer {
+		layer1 {
 // ------------------------------------------------------------------------------------------------
 // | BT CLR | F1  | F2  | F3  | F4  | F5  | F6  | F7  | F8  | F9  | F10  | F11 | F12 | DEL |
 // |  BT 1  |   |   |   | HUEUP | SATUP | BRIUP | SPDUP |  HOME |   PGUP  |  UP  |  PGDN   |  END   |     CALC      |
