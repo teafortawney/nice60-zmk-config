@@ -4,6 +4,10 @@
  * SPDX-License-Identifier: MIT
  */
 
+#define DEFAULT 0
+#define LOWER 1
+#define RAISE 2
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
@@ -16,7 +20,7 @@
 	keymap {
 		compatible = "zmk,keymap";
 		
-		default_layer {
+		DEFAULT {
 // ------------------------------------------------------------------------------------------
 // | ESC |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  |   BKSP   |
 // | TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |   "|"   |
@@ -33,7 +37,7 @@
 			>;
 		};
 
-		layer1 {
+		LOWER {
 // ------------------------------------------------------------------------------------------------
 // | BT CLR |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |  F7  |  F8  |  F9  |  F10  |  F11  |  F12  |  DEL  |
 // | BT 1  |    |    |    |  HUEUP | SATUP | BRIUP | SPDUP |  HOME |  PGUP  |  UP  |  PGDN  |  END  | CALC |
@@ -50,7 +54,7 @@
 			>;
 		};
 
-		layer2 {
+		RAISE {
 // ------------------------------------------------------------------------------------------------
 // | BT CLR | BT 1 | BT 2 | BT 3 | BT 4 |     |     |     |     |     |      |     |     |           |
 // |     |     |     |     |     |     |     |     |     |     |      |     |     |           |
