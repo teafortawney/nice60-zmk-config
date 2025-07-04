@@ -1,4 +1,2 @@
 include:
   - board: nice60
-    snippets: studio-rpc-usb-uart
-    cmake-args: DZMK_STUDIO=y
